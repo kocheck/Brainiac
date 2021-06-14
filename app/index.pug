@@ -1,0 +1,20 @@
+doctype html
+html
+    //- Start Header ======
+    - const pageTitle = "Paper Pixel";
+    include components/_head.pug
+    //- End Header ======
+    body
+        //- Start Nav =============
+        nav(class="nav")
+            include components/_nav.pug
+        //- End Nav =============
+        main
+            section
+                article
+                    h1 Hello world
+                    p This is the start of the brainiac web OS.
+        footer
+            //- Start Footer =====
+            include components/_footer.pug
+            //- End Footer =====
