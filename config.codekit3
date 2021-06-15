@@ -13,9 +13,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/.gitignore",
-      "oF" : 0
+      "oF" : 1
     },
     "\/app\/components\/_footer.pug" : {
       "cB" : 0,
@@ -47,11 +47,41 @@
       "oF" : 0,
       "oS" : 1
     },
+    "\/app\/icons\/dock-placeholder.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/icons\/dock-placeholder.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/app\/icons\/field-notes.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 1,
       "oAP" : "\/build\/icons\/field-notes.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/app\/icons\/sound.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/icons\/sound.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/app\/icons\/style.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/icons\/style.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -64,6 +94,134 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/index.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/app\/pages\/about-pixels\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/about-pixels\/index.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/app\/pages\/archive-pixels\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/archive-pixels\/index.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/app\/pages\/archived-now\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/archived-now\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/app\/pages\/archived-now\/posts\/21061501.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/archived-now\/posts\/21061501.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/app\/pages\/archived-now\/posts\/21061502.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/archived-now\/posts\/21061502.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/app\/pages\/case-study-pixels\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/case-study-pixels\/index.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/app\/pages\/case-study-pixels\/posts\/21601501-cs.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/case-study-pixels\/posts\/21601501-cs.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/app\/pages\/experimental-pixels\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/experimental-pixels\/index.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/app\/pages\/new-email-contact\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/new-email-contact\/index.html",
+      "oF" : 0,
+      "oS" : 1
+    },
+    "\/app\/pages\/new-pixels\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/pages\/new-pixels\/index.html",
       "oF" : 0,
       "oS" : 1
     },
@@ -123,6 +281,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/app\/styles\/5-layouts\/_footer-layout.sass" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/styles\/5-layouts\/_footer-layout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/app\/styles\/5-layouts\/_main-layout.sass" : {
       "aP" : 1,
       "bl" : 1,
@@ -175,9 +347,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/LICENSE",
-      "oF" : 0
+      "oF" : 1
     },
     "\/README.md" : {
       "cB" : 0,
@@ -188,9 +360,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/README.html",
-      "oF" : 0,
+      "oF" : 1,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,
@@ -211,7 +383,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-ariel",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 645392289.01231503
+    "lastBuiltDate" : 645488408.97943795
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

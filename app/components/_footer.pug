@@ -1,3 +1,38 @@
 div
     script.
         new Date().getFullYear()>2010&&document.write("<p>© "+new Date().getFullYear() +", Paper Pixel. <span class='secondary--text'>Built with ❤️ & caffeine.</span></p>");
+    script.
+        var dt = new Date(); document.getElementById("datetime").innerHTML = dt.toLocaleTimeString([], {timeStyle: 'short'});
+.app-dock
+    .app
+        .app-icon
+            include ../icons/dock-placeholder.svg
+        p(class='inactive') Welcome
+        //- ==========================
+    .app
+        .app-icon
+            include ../icons/dock-placeholder.svg
+        p(class='inactive') Pixels
+        //- ==========================
+    .app
+        .app-icon
+            include ../icons/dock-placeholder.svg
+        p(class='inactive') Contacts
+        //- ==========================
+    .app
+        .app-icon
+            include ../icons/dock-placeholder.svg
+        p(class='inactive') Now
+        //- ==========================
+    .dock-divider
+        //- ==========================
+    .app
+        .app-icon
+            include ../icons/dock-placeholder.svg
+        p(class='inactive') Settings
+        //- ==========================
+    .app
+        .app-icon
+            include ../icons/dock-placeholder.svg
+        p(class='inactive') Trash
+        //- ==========================

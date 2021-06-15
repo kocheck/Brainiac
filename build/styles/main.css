@@ -216,15 +216,32 @@ nav {
   padding: 0 4vw;
 }
 
-footer {
-  margin-top: auto;
-  text-align: center;
-  padding: 0 4vw;
-}
-
 .nav {
   background: #F9FAFB;
   box-shadow: inset 0px -1px 0px #E5E7EB;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.nav-app-menu-left {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.nav-app-menu-left summary {
+  display: inline-block;
+}
+
+.nav-app-menu-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
 }
 
 .nav-app-menu-label {
@@ -244,4 +261,34 @@ footer {
 .nav-app-menu-label:hover {
   color: rgba(225, 231, 251, 0.56);
   background-color: #14161f;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 0 4vw;
+}
+
+.app-dock {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.app-dock .app {
+  padding: 0 1rem;
+}
+.app-dock .app svg {
+  border-radius: 16px;
+  padding-bottom: 0.25rem;
+}
+
+.dock-divider {
+  width: 2px;
+  height: 100px;
+  left: 416px;
+  top: 0px;
+  margin: 0 1rem;
+  background: #D1D5DB;
+  border-radius: 4px;
 }
