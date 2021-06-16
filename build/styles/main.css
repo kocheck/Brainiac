@@ -266,6 +266,7 @@ nav {
 footer {
   margin-top: auto;
   text-align: center;
+  z-index: 999;
   padding: 0 4vw;
 }
 
@@ -275,10 +276,29 @@ footer {
   -webkit-justify-content: center;
           justify-content: center;
 }
-.app-dock .app {
+.app-dock .app-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  padding: 2rem 2rem 1rem;
+  background-color: #E5E7EB;
+  border-radius: 1rem 1rem 0 0;
+  -webkit-flex-shrink: 3;
+          flex-shrink: 3;
+}
+.app-dock .app-wrapper .app {
   padding: 0 1rem;
 }
-.app-dock .app svg {
+.app-dock .app-wrapper .app:first-of-type {
+  padding: 0 1rem 0 0;
+}
+.app-dock .app-wrapper .app:last-of-type {
+  padding: 0 0 0 1rem;
+}
+.app-dock .app-wrapper .app svg {
   border-radius: 16px;
   padding-bottom: 0.25rem;
 }
