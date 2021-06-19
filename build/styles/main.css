@@ -186,6 +186,32 @@ td, th {
   padding: 0;
 }
 
+:root {
+  --color-page-bg: #f3f4f6;
+  --color-text: #111827;
+  --color-divider: #e5e7eb;
+  --color-nav-bg: #f9fafb;
+  --color-nav-text: #111827;
+  --color-nav-bg-hover: #111827;
+  --color-nav-text-hover: #6b7280;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-page-bg: #05070c;
+    --color-text: #f3f4f6;
+    --color-divider: #374151;
+    --color-nav-bg: #111827;
+    --color-nav-text: #fdfdfd;
+    --color-nav-bg-hover: #f3f4f6;
+    --color-nav-text-hover: #e5e7eb;
+  }
+}
+
+body {
+  background-color: var(--color-page-bg);
+  color: var(--color-text);
+}
+
 p, li, h1, h2, h3, h4 {
   word-break: break-word;
   -webkit-hyphens: auto;
@@ -217,8 +243,8 @@ nav {
 }
 
 .nav {
-  background: #F9FAFB;
-  box-shadow: inset 0px -1px 0px #E5E7EB;
+  background: var(--color-nav-bg);
+  box-shadow: inset 0px -1px 0px var(--color-divider);
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
@@ -250,7 +276,7 @@ nav {
   -webkit-align-items: center;
           align-items: center;
   min-height: 2.5rem;
-  color: #14161f;
+  color: var(--color-nav-text);
   text-decoration: none;
   padding: 4px 8px 4px 4px;
 }
@@ -258,9 +284,10 @@ nav {
   margin: 0;
   padding-left: 0.25rem;
 }
-.nav-app-menu-label:hover {
-  color: rgba(225, 231, 251, 0.56);
-  background-color: #14161f;
+
+.nav-app-menu-hover:hover {
+  color: var(--color-nav-text-hover);
+  background-color: var(--color-nav-bg-hover);
 }
 
 footer {

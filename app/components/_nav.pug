@@ -1,31 +1,32 @@
 //- Component Navbar
 //- ===================
 .nav-app-menu-left
-    a(href='#' class='nav-app-menu-label')
+    a(href='#' class='nav-app-menu-label nav-app-menu-hover')
         include ../icons/field-notes.svg
         p Kyle Kochanek
-    details(class='nav-app-menu-details')
+    details(class='nav-app-menu-details nav-app-menu-hover')
         summary Pixels
         a(href="#") New
         a(href="#") Case Studies
         a(href="#") Experiments
         a(href="#") Archive
         a(href="#") About
-    details(class='nav-app-menu-details')
+    details(class='nav-app-menu-details nav-app-menu-hover')
         summary Contact
         a(href="#") New Email
         a(href="#") Open Twitter
         a(href="#") Open Dribbble
-    details(class='nav-app-menu-details')
+    details(class='nav-app-menu-details nav-app-menu-hover')
         summary Now
         a(href="#") Currently Now
         a(href="#") Open Archives
 
 .nav-app-menu-right
     //- todo these may need to be buttons to save state.
-    a(href='#' class='nav-app-menu-label')
+    a(href='#' class='nav-app-menu-label nav-app-menu-hover')
         include ../icons/sound.svg
-    a(href='#' class='nav-app-menu-label')
+    a(href='#' class='nav-app-menu-label nav-app-menu-hover')
         include ../icons/style.svg
-    p(id="datetime")
+    .nav-app-menu-label
+        p(id="datetime")
 

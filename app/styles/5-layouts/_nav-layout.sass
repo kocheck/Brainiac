@@ -1,6 +1,6 @@
 .nav
-    background: $color-white-elv2
-    box-shadow: inset 0px -1px 0px $color-divider-elv2
+    background: var(--color-nav-bg)
+    box-shadow: inset 0px -1px 0px var(--color-divider)
     display: flex
     justify-content: space-between
     align-items: center
@@ -20,12 +20,13 @@
     display: flex
     align-items: center
     min-height: 2.5rem
-    color: $color-base
+    color: var(--color-nav-text)
     text-decoration: none
     padding: 4px 8px 4px 4px
     p
         margin: 0
         padding-left: 0.25rem
-    &:hover
-        color: $color-grey
-        background-color: $color-base
+
+.nav-app-menu-hover:hover
+    color: var(--color-nav-text-hover)
+    background-color: var(--color-nav-bg-hover)
