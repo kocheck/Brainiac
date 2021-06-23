@@ -17,6 +17,16 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 1
     },
+    "\/app\/components\/_cards.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/components\/_cards.html",
+      "oF" : 0,
+      "oS" : 1
+    },
     "\/app\/components\/_footer.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -290,6 +300,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/build\/styles\/3-template-logic\/_typography.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/styles\/5-layouts\/_card-layout.sass" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/styles\/5-layouts\/_card-layout.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

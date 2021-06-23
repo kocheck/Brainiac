@@ -1,0 +1,16 @@
+//- mixin list(id, ...items)
+//-   ul(id=id)
+//-     each item in items
+//-       li= item
+
+//- +list('my-list', 1, 2, 3, 4)
+
+mixin windowCard(id, title, copy)
+    div(id=id)
+        .card-title
+            .close-icon
+            lable= title
+        .card-content
+            div
+                p= copy
+

@@ -194,6 +194,8 @@ td, th {
   --color-nav-text: #111827;
   --color-nav-bg-hover: #111827;
   --color-nav-text-hover: #6b7280;
+  --color-doc-div: #e5e7eb;
+  --color-doc-div: #d1d5db;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -204,6 +206,8 @@ td, th {
     --color-nav-text: #fdfdfd;
     --color-nav-bg-hover: #f3f4f6;
     --color-nav-text-hover: #e5e7eb;
+    --color-doc-background: #111827;
+    --color-doc-div: #1f2937;
   }
 }
 
@@ -311,7 +315,7 @@ footer {
   -webkit-align-items: flex-start;
           align-items: flex-start;
   padding: 2rem 2rem 1rem;
-  background-color: #E5E7EB;
+  background-color: var(--color-doc-background);
   border-radius: 1rem 1rem 0 0;
   -webkit-flex-shrink: 3;
           flex-shrink: 3;
@@ -336,6 +340,6 @@ footer {
   left: 416px;
   top: 0px;
   margin: 0 1rem;
-  background: #D1D5DB;
+  background: var(--color-doc-div);
   border-radius: 4px;
 }
