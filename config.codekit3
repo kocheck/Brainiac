@@ -57,6 +57,36 @@
       "oF" : 0,
       "oS" : 1
     },
+    "\/app\/icons\/background.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/icons\/background.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/app\/icons\/close.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/icons\/close.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/app\/icons\/coffee.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/icons\/coffee.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/app\/icons\/dock-placeholder.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -106,6 +136,28 @@
       "oAP" : "\/build\/index.html",
       "oF" : 0,
       "oS" : 1
+    },
+    "\/app\/javascript\/_windowDrag.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/javascript\/_windowDrag-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/app\/javascript\/main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/javascript\/main-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/app\/pages\/about-pixels\/index.pug" : {
       "cB" : 0,
@@ -413,7 +465,14 @@
 
   ],
   "manualImportLinks" : {
-
+    "\/app\/javascript\/main.js" : [
+      {
+        "followForSyntaxChecking" : 1,
+        "linkedFileAbbreviatedPath" : "\/app\/javascript\/_windowDrag.js",
+        "position" : 0,
+        "type" : 1
+      }
+    ]
   },
   "projectAttributes" : {
     "creationDate" : 645390745.93199503,
@@ -421,7 +480,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-ariel",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 645820075.56445897
+    "lastBuiltDate" : 646199110.34010899
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

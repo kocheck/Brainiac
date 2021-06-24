@@ -12,6 +12,14 @@
     // Dock
     --color-doc-div: #{$color-grey-200}
     --color-doc-div: #{$color-grey-300}
+    // Card
+    --color-card-bg: 255, 255, 255
+    // This varible 👆 is different or broken on purpuse to allow access to the alfa chanel.
+    --color-card-outline: #{$color-grey-200}
+    --color-card-heroImage: #{$color-grey-100}
+    --color-card-heroTitle: #{$color-grey-900}
+    // Icons
+    --icon-window-close: #{$color-grey-900}
 
     @media (prefers-color-scheme: dark)
         --color-page-bg: #{$color-black}
@@ -25,10 +33,11 @@
         // Dock
         --color-doc-background: #{$color-grey-900}
         --color-doc-div: #{$color-grey-800}
-
-
-// CSS Colors =====
-
-body
-    background-color: var(--color-page-bg)
-    color: var(--color-text)
+        // Card
+        --color-card-bg: 31, 41, 55
+        // This varible 👆 is different or broken on purpuse to allow access to the alfa chanel.
+        --color-card-outline: #{$color-grey-700}
+        --color-card-heroImage: #{$color-grey-100}
+        --color-card-heroTitle: #{$color-grey-900}
+        // Icons
+        --icon-window-close: #{$color-grey-100}

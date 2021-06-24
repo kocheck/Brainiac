@@ -1,5 +1,10 @@
 //- Site Home
 //- ===================
+//- Component Mixins
+include components/_cards.pug
+//- ===================
+
+
 doctype html
 html
     //- Start Header ======
@@ -13,11 +18,8 @@ html
         //- End Nav =============
         main
             section
-                include components/_cards.pug
-                +windowCard('test', 'This is a test', 'copy Test')
-                article
-                    h1 Hello world
-                    p This is the start of the brainiac web OS.
+                +welcomeCard('welcome', 'Welcome.app', 'Welcome', 'Thank you for stumbling across Kyle Kochanek’s corner of the internet!', 'Discover the fantastic projects that live here, shipped with all of their bugs and glory. Testaments to live and let learn.', 'May this content inspire a few smiles and nuggets of ideas for you today!')
+
         footer
             //- Start Footer =====
             include components/_footer.pug

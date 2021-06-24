@@ -196,6 +196,11 @@ td, th {
   --color-nav-text-hover: #6b7280;
   --color-doc-div: #e5e7eb;
   --color-doc-div: #d1d5db;
+  --color-card-bg: 255, 255, 255;
+  --color-card-outline: #e5e7eb;
+  --color-card-heroImage: #f3f4f6;
+  --color-card-heroTitle: #111827;
+  --icon-window-close: #111827;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -208,12 +213,12 @@ td, th {
     --color-nav-text-hover: #e5e7eb;
     --color-doc-background: #111827;
     --color-doc-div: #1f2937;
+    --color-card-bg: 31, 41, 55;
+    --color-card-outline: #374151;
+    --color-card-heroImage: #f3f4f6;
+    --color-card-heroTitle: #111827;
+    --icon-window-close: #f3f4f6;
   }
-}
-
-body {
-  background-color: var(--color-page-bg);
-  color: var(--color-text);
 }
 
 p, li, h1, h2, h3, h4 {
@@ -224,12 +229,19 @@ p, li, h1, h2, h3, h4 {
   margin-top: 0;
 }
 
+html {
+  background-color: var(--color-page-bg);
+}
+
 body {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
+  background: url("/icons/background.svg") no-repeat center center fixed;
+  background-size: cover;
+  color: var(--color-text);
 }
 
 main {
@@ -255,6 +267,7 @@ nav {
           justify-content: space-between;
   -webkit-align-items: center;
           align-items: center;
+  z-index: 10;
 }
 
 .nav-app-menu-left {
@@ -342,4 +355,52 @@ footer {
   margin: 0 1rem;
   background: var(--color-doc-div);
   border-radius: 4px;
+}
+
+.cardWrapper {
+  background: var(--color-card-bg);
+  border-radius: 0.25rem;
+  position: absolute;
+  cursor: move;
+  width: 45rem;
+  left: calc(50% - 22.5rem);
+  top: calc(50% - 16rem);
+  background: rgba(var(--color-card-bg), 0.96);
+  /* Default/gray/200 */
+  border: 1px solid var(--color-card-outline);
+  /* _Window / Default */
+  box-shadow: 0px 16px 16px -12px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.card-nav {
+  -webkit-justify-content: start;
+          justify-content: start;
+  justify-content-z-index: 9;
+}
+
+.card-icon-close {
+  fill: var(--icon-window-close);
+}
+
+.card-content-image {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 40px;
+  background: var(--color-card-heroImage);
+}
+.card-content-image h1 {
+  color: var(--color-card-heroTitle);
+}
+
+html, body {
+  overflow: hidden;
 }

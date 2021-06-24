@@ -5,12 +5,18 @@
 
 //- +list('my-list', 1, 2, 3, 4)
 
-mixin windowCard(id, title, copy)
-    div(id=id)
-        .card-title
+mixin welcomeCard(id, lable, title, subtitle, copy, footnote, )
+    .cardWrapper(id=id)
+        div(class="nav card-nav")
             .close-icon
-            lable= title
+                include ../icons/close.svg
+            lable= lable
         .card-content
             div
+                .card-content-image
+                    h1= title
+                    include ../icons/coffee.svg
+                h2= subtitle
                 p= copy
+                small= footnote
 

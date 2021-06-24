@@ -1,0 +1,25 @@
+<svg width="1440" height="900" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_f)" clip-path="url(#clip0)">
+        <circle cx="961" cy="293" r="157" fill="#4F46E5" />
+        <circle cx="939" cy="662" r="102" fill="#DB2777" />
+        <circle cx="600" cy="694" r="112" fill="#D97706" />
+        <circle cx="488" cy="540" r="102" fill="#059669" />
+        <circle cx="452" cy="257" r="64" fill="#DB2777" />
+        <circle cx="516" cy="164" r="28" fill="#DC2626" />
+        <circle cx="632.5" cy="413.5" r="213.5" fill="#DB2777" />
+        <circle cx="435" cy="136" r="17" fill="#D97706" />
+        <circle cx="751.5" cy="481.5" r="260.5" fill="#2563EB" />
+        <circle cx="653" cy="176" r="91" fill="#D97706" />
+    </g>
+    <defs>
+        <clipPath id="clip0">
+            <path fill="#fff" d="M0 0h1440v900H0z" />
+        </clipPath>
+        <filter id="filter0_f" x="186" y="-115" width="1132" height="1121" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur" />
+        </filter>
+    </defs>
+</svg>
